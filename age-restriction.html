@@ -18,15 +18,30 @@
             <div class="avr__age-restrict__content">
                 <h1>Adult-Age Restriction</h1>
 
-                <!-- IMAGE / LOGO -->
+                <img 
+                 class="avr__age-restrict__logo"
+                 src="img/logo_avr_18_denied.png"
+                 alt="are-you-over-eighteen-accsess-denied-logo"
+                 width="250px"
+                 height="250px"
+                />
 
-                <!-- RESTRICT INFORMATION MESSAGE -->
+                <div class="avr__age-restrict__info-content">
+                    <p>You have confirmed that you are not 18 years old, so the website is temporarily blocked for you.</p>
+                </div>
 
-                <!-- TIMER -->
+                <div class="avr__age-restrict__countdown">
+                    <div id="avr__age-restrict__timer"></div>
+                </div>
 
-                <!-- RE-VERIFY AGE MESSAGE -->
-
-                <!-- BACK TO AGE-VERIFICATION BUTTON -->
+                <div class="avr-information">
+                    <p>
+                        If you are 18 years or older... <br />
+                        Go back and confirm your legal age.
+                    </p>
+          
+                    <button id="avr__age-restrict-back-btn" onclick="clickReturn()"> Go Back </button>
+                </div>
             </div>
 
         </div>
