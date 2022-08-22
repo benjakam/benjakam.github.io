@@ -1,8 +1,9 @@
 /* -----------------------------------------------------------
 START JS | AGE-VERIFICATION.HTML
 -------------------------------------------------------------- */
-
-// YES + NO BUTTON FUNCTIONS = SET LOCAL STORAGE COOKIES or REDIRECT URLs
+// 1. SET LOCAL STORAGE COOKIES (YES/NO BUTTON FUNCTION)
+// 2. REDIRECT URLs
+// 3. CHECK LOCAL STORAGE COOKIE
 
 // YES BUTTON CLICK FUNCTION = SET LOCAL STORAGE ITEM (NAME (KEY) + VALUE (YES))
 function clickYes() {

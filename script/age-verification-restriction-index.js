@@ -1,8 +1,9 @@
 /* -----------------------------------------------------------
 START JAVASCRIPT | INDEX.HTML
 -------------------------------------------------------------- */
-
-// REDIRECT URLs + CHECK LOCAL STORAGE COOKIES
+// 1. CREATE AGE(COOKIE) VARIABLE
+// 2. CHECK LOCAL STORAGE COOKIE
+// 3. REDIRECT URLs
 
 // SET VARIABLE
 let ageCookie; 
